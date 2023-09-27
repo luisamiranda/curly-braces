@@ -51,7 +51,7 @@ variable "container_registry_id" {
 
 variable "enable_aml_computecluster" {
   description = "Variable to enable or disable AML compute cluster"
-  default     = false
+  default     = true
 }
 
 variable "storage_account_name" {
